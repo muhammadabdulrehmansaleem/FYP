@@ -1,0 +1,339 @@
+body{
+    background-color: #f3f6f8;
+    margin-top:20px;
+}
+.thumb-lg {
+    height: 88px;
+    width: 88px;
+}
+.profile-user-box {
+    position: relative;
+    border-radius: 5px
+}
+.bg-custom {
+    background-color: #f3f6f8!important;
+}
+.profile-user-box {
+    position: relative;
+    border-radius: 5px;
+}
+
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.custom-card-box {
+    border: 2px solid #dbe5db; /* Black border */
+    border-radius: 10px; /* Rounded corners (adjust the value as needed) */
+}
+.inbox-widget .inbox-item img {
+    width: 40px;
+}
+
+.inbox-widget .inbox-item {
+    border-bottom: 1px solid #f3f6f8;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative
+}
+
+.inbox-widget .inbox-item .inbox-item-img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 40px
+}
+
+.inbox-widget .inbox-item img {
+    width: 40px
+}
+
+.inbox-widget .inbox-item .inbox-item-author {
+    color: #313a46;
+    display: block;
+    margin: 0
+}
+
+.inbox-widget .inbox-item .inbox-item-text {
+    color: #98a6ad;
+    display: block;
+    font-size: 14px;
+    margin: 0
+}
+
+.inbox-widget .inbox-item .inbox-item-date {
+    color: #98a6ad;
+    font-size: 11px;
+    position: absolute;
+    right: 7px;
+    top: 12px
+}
+
+.comment-list .comment-box-item {
+    position: relative
+}
+
+.comment-list .comment-box-item .commnet-item-date {
+    color: #98a6ad;
+    font-size: 11px;
+    position: absolute;
+    right: 7px;
+    top: 2px
+}
+
+.comment-list .comment-box-item .commnet-item-msg {
+    color: #313a46;
+    display: block;
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px
+}
+
+.comment-list .comment-box-item .commnet-item-user {
+    color: #98a6ad;
+    display: block;
+    font-size: 14px;
+    margin: 0
+}
+
+.comment-list a+a {
+    margin-top: 15px;
+    display: block
+}
+
+.ribbon-box .ribbon-primary {
+    background: #2d7bf4;
+}
+
+.ribbon-box .ribbon {
+    position: relative;
+    float: left;
+    clear: both;
+    padding: 5px 12px 5px 12px;
+    margin-left: -30px;
+    margin-bottom: 15px;
+    font-family: Rubik,sans-serif;
+    -webkit-box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    -o-box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    box-shadow: 2px 5px 10px rgba(49,58,70,.15);
+    color: #fff;
+    font-size: 13px;
+}
+.text-custom {
+    color: #02c0ce!important;
+}
+
+.badge-custom {
+    background: #02c0ce;
+    color: #fff;
+}
+.badge {
+    font-family: Rubik,sans-serif;
+    -webkit-box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+    box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+    padding: .35em .5em;
+    font-weight: 500;
+}
+.text-muted {
+    color: #98a6ad!important;
+}
+
+.font-13 {
+    font-size: 13px!important;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #42acd4;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #42acd4;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #42acd4;
+}
+.custom-btn {
+    background-color: #1f6fde;
+    color: #fff;
+  }
+
+  .custom-btn:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #42acd4;
+  }
+/* Star rating container */
+.star-rating {
+    font-size: 18px !important;
+    white-space: nowrap !important; /* Prevent line breaks */
+}
+
+/* Filled star icon */
+.star-rating i.fa-star {
+    color: #42acd4 !important;
+    display: inline-block !important;
+    margin-right: 2px; /* Add some space between stars (adjust as needed) */
+}
+
+/* Half-filled star icon */
+.star-rating i.fa-star-half {
+    color: #42acd4 !important;
+    display: inline-block !important;
+    width: 50% !important;
+    overflow: hidden !important;
+    margin-right: 2px !important; /* Add some space between stars (adjust as needed) */
+    line-height: 0.7; /* Adjust the line height to vertically align the half-star */
+}
+
+/* Empty star icon */
+.star-rating i.fa-star-o {
+    color: #ccc !important;
+    display: inline-block !important;
+    margin-right: 2px; /* Add some space between stars (adjust as needed) */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #dbe5db; /* Black border */
+    border-radius: 5px;
+}
+.chart-container {
+    width: 100%;
+    height: 300px; /* Set an initial height or adjust as needed */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.job-list-container {
+    /* width: 400px; Set the fixed width of the container */
+    margin: 0 auto;
+    background-color: #fff;
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    overflow-y: scroll; /* Enable vertical scrolling within the container */
+    max-height: 700px; /* Set the maximum height of the container */
+}
+
+.job-list {
+    margin-top: 10px;
+}
+
+.job {
+    /* border: 1px solid #ddd; */
+    background-color: #fcfcfc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+.job:hover {
+    border-left: 4px solid #dbe5db; /* Adjust the desired left border style on hover */
+}
+h1 {
+    text-align: center;
+}
+/* Define a custom scrollbar style */
+.job-list-container::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+}
+
+/* Define the track (the background of the scrollbar) */
+.job-list-container::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Set the background color of the track */
+}
+
+/* Define the thumb (the draggable part of the scrollbar) */
+.job-list-container::-webkit-scrollbar-thumb {
+    background: #ccc; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Round the corners of the thumb */
+}
+
+/* Define the thumb on hover (optional) */
+.job-list-container::-webkit-scrollbar-thumb:hover {
+    background: #a7a6a6; /* Change the color when hovered */
+}
+.review-card {
+    width: 100%; /* Adjust the width to 100% for responsiveness */
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: 20px;
+}
+
+/* Styles for reviewer info and image */
+.reviewer-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Styles for rating */
+.rating {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Styles for stars */
+.star {
+    color: #42acd4;
+}
+
+/* Styles for review text */
+.review-text {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+    .review-card {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    /* You can further adjust styles for smaller screens here */
+}
+
+
+
+
+
